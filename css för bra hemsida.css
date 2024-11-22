@@ -1,0 +1,412 @@
+@font-face {
+    font-family: lainfont;
+    src: url(LoveLetter.TTF);
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: #321e47;
+    font-family: lainfont;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+}
+
+.navbar a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 25px;
+    display: block;
+    text-align: center;
+    display: block; 
+}
+
+.navbar a:hover{
+    background-color: lightslategray;
+}
+
+.navbar li{
+    display: inline-block;
+
+}
+
+
+p{
+    color: rgb(255, 255, 255);
+   font-family: lainfont;
+}
+
+
+body{
+    background-image: url(https://i.gifer.com/N0Mb.gif) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px; 
+   font-family: lainfont;
+ 
+}
+
+
+h1{
+    color: whitesmoke;
+    font-family: lainfont;
+    text-align: center;
+
+}
+
+#underrubrik{
+    color: whitesmoke;
+    font-family: lainfont;
+    border-style: outset;
+    border-width: 3px;
+    border-color: #321e47;
+    padding: 3px;
+
+}
+
+.information{
+    color: rgb(232, 223, 255);
+    font-family: lainfont;
+}
+
+#introduktion{
+    border-style: outset;
+    border-width: 3px;
+    width: 500px;
+    height: 250px;
+    font-size: large;
+    font-family: lainfont;
+    background-color: #321e47;
+    color: aliceblue;
+    padding: 10px;
+    margin-top: 20px ;
+    margin-left: 20px ;
+    margin-right: 20px ;
+    margin-bottom: 50px ;
+    text-align: center;
+    
+    
+
+}
+
+img.laingif{
+    width: 150px;
+    height: 100px;
+    margin: 20px;
+    position: sticky;
+    top: 2px;
+    bottom: 2px;
+}
+
+img.laingif2{
+    display: block;
+    width: 700px;
+    margin: 5px auto;
+}
+
+a:hover{
+    color: aliceblue
+}
+
+button{
+    color:#321e47;
+    font-family: lainfont;
+
+}
+button:hover{
+    background-color: lightslategray;
+}
+
+.parent{
+    justify-content: center;
+    display: flex;
+    width: 100%; 
+}
+
+.bibelcitat{
+    border-style: outset;
+    border-width: 3px;
+    border-color: aliceblue;
+    background-color: #321e47;
+    margin: 50px;
+    text-align: center;
+    
+}
+
+a:link{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+a:visited{
+    color: aliceblue;
+}
+
+
+.ortholain{
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    
+
+}
+
+.frirengif{ 
+    width: 400px;
+    height: 400px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    border-style: outset;
+    border-width: 5px;
+    border-color: #321e47;
+}
+
+.aikogif{
+    width: 400px;
+    height: 400px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    border-style: outset;
+    border-width: 5px;
+    border-color: #321e47;
+}
+
+.kasumigif{
+    width: 400px;
+    height: 400px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    border-style: outset;
+    border-width: 5px;
+    border-color: #321e47;
+}
+
+
+.first3gif{
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+
+
+.madokagif{
+    width: 400px;
+    height: 400px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 40px;
+    border-style: outset;
+    border-width: 5px;
+    border-color: #321e47;
+}
+
+.waltergif{
+    width: 400px;
+    height: 400px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 40px;
+    border-style: outset;
+    border-width: 5px;
+    border-color: #321e47;
+}
+
+.reigif{
+    width: 400px;
+    height: 400px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 40px;
+    border-style: outset;
+    border-width: 5px;
+    border-color: #321e47;
+}
+
+.next3gif{
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+
+.bananbild{
+    width: 400px;
+    height: 400px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    border-style: outset;
+    border-width: 5px;
+    border-color: #321e47;
+}
+
+.bananbild2{
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-style: outset;
+    border-width: 5px;
+    border-color: #321e47;
+}
+
+.bananacenter{
+    justify-content: center;
+    display: flex;
+}
+
+
+
+.bananatext{
+    border-style: outset;
+    border-width: 3px;
+    width: 200;
+    height: 110px;
+    font-size: large;
+    font-family: lainfont;
+    background-color: #321e47;
+    color: aliceblue;
+    padding: 10px;
+    margin-top: 20px ;
+    margin-left: 20px ;
+    margin-right: 20px ;
+    margin-bottom: 50px ;
+    text-align: center;
+}
+
+
+
+    .bananacenter2{
+    justify-content: center;
+    display: flex;
+}
+
+.eatingbanana{
+    justify-content: space-around;
+    display: flex;
+}
+
+
+.tårtabild{
+    width: 400px;
+    height: 400px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    border-style: outset;
+    border-width: 5px;
+    border-color: #321e47;
+}
+
+.tårtabild2{
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-style: outset;
+    border-width: 5px;
+    border-color: #321e47;
+}
+
+.tårtacenter{
+    justify-content: center;
+    display: flex;
+}
+
+
+
+.tårtatext{
+    border-style: outset;
+    border-width: 3px;
+    width: 200px;
+    height: 150px;
+    font-size: large;
+    font-family: lainfont;
+    background-color: #321e47;
+    color: aliceblue;
+    padding: 10px;
+    margin-top: 20px ;
+    margin-left: 20px ;
+    margin-right: 20px ;
+    margin-bottom: 50px ;
+    text-align: center;
+}
+
+
+
+.tårtacenter2{ 
+    justify-content: center;
+    display: flex;
+
+}
+
+
+
+.eatingtårta{
+    justify-content: space-around;
+    display: flex;
+}
+
+
+.ostbild{
+    width: 400px;
+    height: 400px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    border-style: outset;
+    border-width: 5px;
+    border-color: #321e47;
+}
+
+.ostbild2{
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-style: outset;
+    border-width: 5px;
+    border-color: #321e47;
+}
+
+.ostcenter{
+    justify-content: center;
+    display: flex;
+}
+
+
+
+.osttext{
+    border-style: outset;
+    border-width: 3px;
+    width: 200px;
+    height: 170px;
+    font-size: large;
+    font-family: lainfont;
+    background-color: #321e47;
+    color: aliceblue;
+    padding: 10px;
+    margin-top: 20px ;
+    margin-left: 20px ;
+    margin-right: 20px ;
+    margin-bottom: 50px ;
+    text-align: center;
+}
+
+
+
+.ostcenter2{ 
+    justify-content: center;
+    display: flex;
+
+}
+
+.first3{
+    justify-content:center;
+    display: flex;
+}
